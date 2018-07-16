@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <main id="game-area">
+        </main>
+        <div class="card mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Balloons Deep</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                    <div>You must pop as many balloons as you can.</div>
+                    <div>They will pop when they reach a certain velocity.</div>
+                    <div>When a balloon touches you, you lose health,</div>
+                    <div>When you pop a balloon you gain health.</div>
+                    <div>Use A and D to move left and right</div>
+                    <div>W to jump</div>
+                    <div>E To hit a balloon</div>
+                    <div>Q for the super attack (limited)</div>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        Click Anywhere To Start
+                </a>
+            </div>
+        </div>
+        <audio id="pop" preload src="../sounds/pop.ogg" type="audio/mpeg">
+        <audio id="hadouken" preload src="../sounds/hadouken.mp3" type="audio/mpeg">
+        <audio id="killingspree" preload src="../sounds/killingspree.mp3" type="audio/mpeg"></audio>
+        <audio id="rampage" preload src="../sounds/rampage.mp3" type="audio/mpeg"></audio>
+        <audio id="ownage" preload src="../sounds/ownage.mp3" type="audio/mpeg"></audio>
+        <audio id="godlike" preload src="../sounds/godlike.mp3" type="audio/mpeg"></audio>
+        <audio id="unstoppable" preload src="../sounds/unstoppable.mp3" type="audio/mpeg"></audio>
+        <audio id="danger" preload src="../sounds/danger.mp3" type="audio/mpeg"></audio>
+        <audio id="theme" preload="auto" src="../sounds/theme.mp3" type="audio/mpeg"></audio>
+        <script src="bundle.js"></script>
+    </body>
+</html>
