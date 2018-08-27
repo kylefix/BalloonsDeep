@@ -5,7 +5,7 @@ This was my first attempt at writing a game.
 
 http://impolite-chairs.surge.sh/
 
-![alt screenshot](https://lh4.googleusercontent.com/V4HMraeR-7xQhuzlscztoT2tnlRDFr1hEhO3aveq7y6-i-m2HRkf3zlvXsjXOtxRB6gkDdVwDVLPag=w2560-h1452-rw)
+![alt screenshot](https://image.ibb.co/daKpQ9/Screen_Shot_2018_08_27_at_6_38_36_PM.png)
 
 ## Features
 - Basic physics engine. Detects elastic collisions, using object mass, elasticity, acceleration, velocity, and implemented basic gravity.
