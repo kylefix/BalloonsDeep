@@ -1,4 +1,4 @@
-# BalloonsDeep
+# Balloons Deep
 This was my project for DecodeMTL's OOP Nyan Cat project.
 
 This was my first attempt at writing a game.
